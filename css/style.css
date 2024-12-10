@@ -11,6 +11,10 @@ body {
 	font-size: 16px;
 	line-height: 1.6;
 	background-color: #f9f9f9;
+	background: url('https://media.islamicity.org/wp-content/uploads/2019/09/Quran_isp.jpg') no-repeat center center fixed; /* Replace with your chosen image URL */
+	background-size: cover; /* Ensures the image covers the entire background */
+	}
+	
 }
 
 h1,
@@ -56,7 +60,27 @@ hr {
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1000px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column; /* Stacks the text vertically */
 }
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the container takes up the full viewport height */
+    text-align: center; /* Centers the text within the flexbox */
+    border: 10px solid #ccc; /* Decorative border */
+    padding: 20px; /* Adds space inside the border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for a decorative effect */
+}
+
+
+}
+
+
 
 /* Media Queries */
 
