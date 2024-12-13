@@ -37,7 +37,7 @@ p {
 }
 
 a {
-    color: #0056b3;
+    color: #37404a;
     border-bottom: 2px solid transparent;
     transition: all 0.5s ease-in-out;
 }
@@ -72,7 +72,7 @@ hr {
     align-items: center;
     min-height: 100vh; /* Ensures the container takes up the full viewport height */
     text-align: center; /* Centers the text within the flexbox */
-    border: 10px solid rgb(190, 182, 133); /* Decorative border */
+    border: 5px solid rgb(190, 182, 133); /* Decorative border */
     padding: 20px; /* Adds space inside the border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for a decorative effect */
 }
@@ -82,9 +82,9 @@ hr {
 .quote-box {
     text-align: center;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    background-color: rgba(98, 64, 64, 0.327); /* Semi-transparent background */
     border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for a decorative effect */
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.5); /* Adds a shadow for a decorative effect */
 }
 
 .author {
@@ -97,8 +97,8 @@ hr {
 }
 
 button {
-    background-color: #0056b3;
-    color: white;
+    background-color: clear;
+    color: rgb(12, 3, 27);
     border: none;
     padding: 10px 20px;
     margin: 5px;
