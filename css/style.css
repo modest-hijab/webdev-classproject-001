@@ -120,3 +120,7 @@ button:hover {
 @media (min-width: 999px) {
     /* CSS HERE */
 }
+
+.arabic{
+	font-size: xx-large;
+}
