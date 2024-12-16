@@ -11,11 +11,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-	background: url(https://media.islamicity.org/wp-content/uploads/2019/09/Quran_isp.jpg) no-repeat center center fixed;
-	background-size: cover; /* Ensures the image covers the entire background */
+    background: url(https://media.islamicity.org/wp-content/uploads/2019/09/Quran_isp.jpg) no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the entire background */
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
 h1,
 h2,
@@ -72,14 +73,14 @@ hr {
     align-items: center;
     min-height: 100vh; /* Ensures the container takes up the full viewport height */
     text-align: center; /* Centers the text within the flexbox */
-    border: 5px solid rgb(190, 182, 133); /* Decorative border */
+    border: 5px solid rgb(236, 235, 226); /* Decorative border */
     padding: 20px; /* Adds space inside the border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for a decorative effect */
 }
 
 /* Additional Styles for Quote Box and Buttons */
 
-.quote-box {
+article.quote-box {
     text-align: center;
     padding: 20px;
     background-color: rgba(98, 64, 64, 0.327); /* Semi-transparent background */
@@ -92,7 +93,7 @@ hr {
     margin-top: 10px;
 }
 
-.buttons {
+nav.buttons {
     margin-top: 20px;
 }
 
@@ -121,6 +122,6 @@ button:hover {
     /* CSS HERE */
 }
 
-.arabic{
-	font-size: xx-large;
+.arabic {
+    font-size: xx-large;
 }
