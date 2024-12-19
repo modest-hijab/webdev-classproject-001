@@ -1,23 +1,28 @@
 @import url("reset.css");
-
 html, body {
     padding: 0;
     margin: 0;
     height: 100%;
 }
-
 body {
+    position: relative;
+    top: 10%; /* Place 1/3 from the top */
+    align-items: center;
+    /*left: 50%; /* Center horizontally */
+    /*right: 50%;*/
+    /* transform: translate(-50%, -33%); Adjust for center alignment */
     color: #333333;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    background: url(https://media.islamicity.org/wp-content/uploads/2019/09/Quran_isp.jpg) no-repeat center center fixed;
-    background-size: cover; /* Ensures the image covers the entire background */
-    display: flex;
+    background: url(/Images/Image.jpg);
+    background-size: cover; /* Ensure image covers the container without distortion */
+    background-position: center top; /* Adjusts the visible portion of image */
+    margin: 0 auto; /* Centers the container horizontally */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
-
 h1,
 h2,
 h3,
@@ -30,32 +35,37 @@ h6 {
     text-transform: uppercase;
     margin: 0 0 1.6rem;
 }
-
 p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     margin: 0 0 1.6rem;
 }
-
 a {
-    color: #37404a;
+    color: #37404A;
     border-bottom: 2px solid transparent;
     transition: all 0.5s ease-in-out;
 }
-
 a:hover {
     color: #002348;
     border-bottom: 2px solid #002348;
 }
-
 hr {
     margin: 3.2rem 1.6rem;
     color: #555555;
     border-color: #555555;
 }
-
 /* Layout */
-
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; /* Ensures the container takes up the full viewport height */
+    text-align: center; /* Centers the text within the flexbox */
+    /*border: 5px solid rgb(236, 235, 226); /* Decorative border */
+    padding: 20px; /* Adds space inside the border */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); Adds a shadow for a decorative effect */
+}
 .container {
     padding: 0;
     margin: 0 auto;
@@ -66,37 +76,40 @@ hr {
     align-items: center;
     flex-direction: column; /* Stacks the text vertically */
 }
-
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; /* Ensures the container takes up the full viewport height */
-    text-align: center; /* Centers the text within the flexbox */
-    border: 5px solid rgb(236, 235, 226); /* Decorative border */
-    padding: 20px; /* Adds space inside the border */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adds a shadow for a decorative effect */
-}
-
 /* Additional Styles for Quote Box and Buttons */
-
-article.quote-box {
+.quote-box {
     text-align: center;
     padding: 20px;
     background-color: rgba(98, 64, 64, 0.327); /* Semi-transparent background */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(72, 72, 72, 0.5); /* Adds a shadow for a decorative effect */
 }
-
-.author {
-    font-style: italic;
-    margin-top: 10px;
+.arabic {
+    font-size: xx-large;
 }
-
-nav.buttons {
-    margin-top: 20px;
+.translation {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(66, 64, 163, 0.327); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.5); /* Adds a shadow for a decorative effect */
 }
-
+.reference {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(64, 163, 69, 0.327); /* Semi-transparent background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(72, 72, 72, 0.5); /* Adds a shadow for a decorative effect */
+}
+.buttons {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 button {
     background-color: clear;
     color: rgb(12, 3, 27);
@@ -107,21 +120,19 @@ button {
     border-radius: 5px;
     transition: background-color 0.3s;
 }
-
 button:hover {
-    background-color: #002348;
+    background-color: rgba(64, 163, 69, 0.15);
 }
-
 /* Media Queries */
-
 @media (min-width: 699px) {
     /* CSS HERE */
 }
-
 @media (min-width: 999px) {
     /* CSS HERE */
 }
 
-.arabic {
-    font-size: xx-large;
-}
+
+
+
+
+6:53
